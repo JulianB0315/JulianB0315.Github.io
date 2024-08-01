@@ -16,3 +16,9 @@ html{
     background-position: center center;
     color: #fff;
 }
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
