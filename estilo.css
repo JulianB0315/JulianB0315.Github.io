@@ -1,0 +1,18 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Inicio*/
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3))
+    url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
