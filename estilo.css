@@ -154,16 +154,63 @@ html{
     width: 30%;
 }
 .sobremi .contenido-seccion .fila .col i{
-   color: rgb(112, 214, 255);
-   display: inline-block;
-   width: 40px;
-   height: 40px;
-   border: 2px solid rgb(112, 214, 255);
-   line-height: 40px;
-   border-radius: 50%;
+    color: rgb(112, 214, 255);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(112, 214, 255);
+    line-height: 40px;
+    border-radius: 50%;
 }
 .sobremi .contenido-seccion .fila .col span{
     display: block;
     font-weight: bold;
     margin: 8px 0;
 }
+/*Hablidades*/
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+    url("/img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid rgb(112, 214, 255);
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin: 2px;
+}
+
