@@ -112,6 +112,58 @@ html{
     border: 5px solid rgb(112, 214, 255);
     position: absolute;
     left: 50%;
-    top: 50px;
+    top: 30px;
     transform: translateX(-50%);
+}
+/*Estilos generales*/
+.titulo-seccion{
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+}
+/*Sobre mi*/
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi .contenido-seccion .especial{
+    color: rgb(112, 214, 255);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+   color: rgb(112, 214, 255);
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   border: 2px solid rgb(112, 214, 255);
+   line-height: 40px;
+   border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
 }
