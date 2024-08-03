@@ -273,3 +273,30 @@ html{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
+/*Contactos*/
+.contacto{
+    background-color: #1b1a1a;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: rgb(112, 214, 255);
+    font-family: "Oswald";
+}
