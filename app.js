@@ -41,3 +41,50 @@ let git = document.getElementById("git");
 crearBarra(git);
 let gitbuh = document.getElementById("gitbuh");
 crearBarra(gitbuh);
+//Relleno
+//comienza con el -1 por que no tiene ninguna pintada al iniciar
+let contadores=[-1,-1,-1,-1,-1,-1];
+//Varible para la animacion
+let entro=false;
+//funcion de la animacion
+function efectoHablidades(){
+    var habilidades =document.getElementById("habilidades");
+    var distancia= window.innerHeight - habilidades.getBoundingClientRect().top;
+    if(distancia>=300 && entro==false){
+        entro =true;
+        const intervajavascript = setInterval(function(){
+            pintar(javascript,10,0,intervajavascript);
+        },100)
+        const intervapython= setInterval(function(){
+            pintar(python,12,1,intervapython);
+        },100)
+        const intervaHtml = setInterval(function(){
+            pintar(html,16,2,intervaHtml);
+        },100)
+        const intervacss = setInterval(function(){
+            pintar(css,14,3,intervacss);
+        },100)
+        const intervagit = setInterval(function(){
+            pintar(git,14,4,intervagit);
+        },100)
+        const intervagitbuh = setInterval(function(){
+            pintar(gitbuh,11,5,intervagitbuh);
+        },100)
+    }
+}
+//pintado de barra segun el porcentaje
+function pintar(id_barra,cantidad,indice,interval){
+    contadores[indice]++;
+    x=contadores[indice];
+    if(x<cantidad){
+        let elementos =id_barra.getElementsByClassName("e");
+        elementos[x].style.backgroundColor="rgb(112, 214, 255)"
+    }
+    else{
+        clearInterval(interval)
+    }
+}
+
+window.onscroll=function(){
+    efectoHablidades();
+}
