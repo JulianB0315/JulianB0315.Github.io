@@ -213,4 +213,63 @@ html{
     height: 30px;
     margin: 2px;
 }
-
+/*Resumen*/
+.resumen{
+    background-color: #e6e6e6;
+    padding: 140 px 0 100px 0;
+    text-align: center;
+}
+.resumen .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resumen .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resumen .contenido-seccion .info .col{
+    width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: rgb(112, 214, 255);
+    font-weight: bold;
+    border: 2px solid rgb(112, 214, 255);
+    padding: 10px;
+}
+.resumen .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.resumen .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.resumen .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.resumen .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resumen .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+.resumen .contenido-seccion .info .col table .promedio{
+    display: block;
+    color: rgb(112, 214, 255);
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "Oswald";
+}
+.resumen .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
