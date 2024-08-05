@@ -22,7 +22,7 @@ for(var x=0; x <links.length;x++){
 }
 //Animacion
 function crearBarra(id_barra){
-    for(i=0;i<=16;i++){
+    for(i=0;i<=14;i++){
         let div = document.createElement("div")
         div.className="e"
         id_barra.appendChild(div);
@@ -53,22 +53,22 @@ function efectoHablidades(){
     if(distancia>=300 && entro==false){
         entro =true;
         const intervajavascript = setInterval(function(){
-            pintar(javascript,10,0,intervajavascript);
+            pintar(javascript,8,0,intervajavascript);
         },100)
         const intervapython= setInterval(function(){
-            pintar(python,12,1,intervapython);
+            pintar(python,10,1,intervapython);
         },100)
         const intervaHtml = setInterval(function(){
-            pintar(html,16,2,intervaHtml);
+            pintar(html,14,2,intervaHtml);
         },100)
         const intervacss = setInterval(function(){
-            pintar(css,14,3,intervacss);
+            pintar(css,12,3,intervacss);
         },100)
         const intervagit = setInterval(function(){
-            pintar(git,14,4,intervagit);
+            pintar(git,12,4,intervagit);
         },100)
         const intervagitbuh = setInterval(function(){
-            pintar(gitbuh,11,5,intervagitbuh);
+            pintar(gitbuh,9,5,intervagitbuh);
         },100)
     }
 }
