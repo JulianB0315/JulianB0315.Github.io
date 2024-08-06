@@ -22,7 +22,7 @@ for(var x=0; x <links.length;x++){
 }
 //Animacion
 function crearBarra(id_barra){
-    for(i=0;i<=14;i++){
+    for(i=0;i<=13;i++){
         let div = document.createElement("div")
         div.className="e"
         id_barra.appendChild(div);
