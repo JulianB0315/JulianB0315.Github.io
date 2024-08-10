@@ -11,3 +11,14 @@
   <p>Plantilla de hoja de vida sujeta cambio y mejoras a futuro</p>
   <p>El repositorio tiene desde contiene Html, Css y JS</p>
 </div>
+<div>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Oswald&color=0074a8&size=35&vCenter=true&repeat=false&width=1000&lines=Code:;" />
+</div>
+<div>
+  <img width="30%" height="250px" src="Readme/HTML.png" />
+  <img width="30%" height="250px" src="Readme/CSS.png" />
+  <img width="30%" height="250px" src="Readme/JS.png" />
+</div>
+<div>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Oswald&color=0074a8&size=35&vCenter=true&repeat=false&width=1000&lines=Final;" />
+</div>
