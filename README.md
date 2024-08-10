@@ -22,3 +22,6 @@
 <div>
   <img src="https://readme-typing-svg.herokuapp.com/?font=Oswald&color=0074a8&size=35&vCenter=true&repeat=false&width=1000&lines=Final;" />
 </div>
+<div align='center'>
+  <img padding="15%" src="Readme/final.png"/>
+</div>
